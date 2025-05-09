@@ -21,7 +21,7 @@ This setup allows states to inflate reported Medicaid spending, which boosts the
 According to the article, provider taxes now underwrite approximately one-third of federal Medicaid transfers in several states. Since states can increase federal contributions without raising real state expenditures, estimates of regional fiscal multipliers—assuming local effort behind observed spending—may be upwardly biased.
 
 ### How to Answer  
-I thought that this could be an interesting application of **Nakamura and Steinsson’s framework**. They distinguish between federally and locally financed spending, showing that the multiplier is only modestly affected by the source of funding—particularly under complete markets.
+I thought that this could be an interesting application of **Nakamura and Steinsson’s framework**. They distinguish between federally and locally financed spending.
 
 The Medicaid provider-tax mechanism mimics a shift from state-financed to federally financed spending by using recycled provider taxes to unlock higher federal matches, without increasing real state fiscal effort.
 
