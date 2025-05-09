@@ -14,7 +14,7 @@ A couple of days ago, I read this in the NY Times:
 
 The article explains how nearly every U.S. state uses a Medicaid financing tactic known as a **provider tax**, where hospitals are taxed by the state and then reimbursed at higher rates for treating Medicaid patients.
 
-![Diagram of Provider Tax Loophole](Screenshot%202025-05-08%20at%2011.46.17%20PM.png)
+![Diagram of Provider Tax Loophole](diagram.png)
 
 This setup allows states to inflate reported Medicaid spending, which boosts the amount of federal matching funds they receive—without increasing actual state fiscal effort. The federal government bases its match on gross spending, not net state contributions, so states effectively extract more federal money by looping funds through providers.
 
