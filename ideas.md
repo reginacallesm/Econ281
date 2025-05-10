@@ -29,6 +29,10 @@ However, to accurately model this case, one would need to go beyond simply chang
 
 Incorporating this type of substitution—where gross reported spending rises but net fiscal effort stays flat—could help reveal how the composition of financing affects local output responses, not just its origin. I’m not yet sure how this could be formally included.
 
+
+### Juan's thoughts. 
+I think this is potentially good. Think about what these scheme is doing. Is it keeping G constant and changing the funding source? Is it relaxing a constraint of the local government so that the state/municipality can increase G further? I only think you need to model explicitly the financing structure if you think that is endogenous. What can you do quickly empirically to check if you have variation to use?
+
 ---
 
 ## Idea 2
@@ -56,5 +60,11 @@ Combine share of 65+ population per locality with municipality‑level informali
 
 - **Micro mechanisms.**  
   Household survey data allow us to decompose spending responses, labor shifts, and formal sector, shedding light on the channels Colombo et al. can only infer from aggregate data.
+
+
+### Juan's thoughts.
+
+
+A couple of comments. First, conceptually transfer multipliers are different than expenditure multipliers. This does not invalidate your idea, but think about why. I was not entirely clear on why you think informality is so important. Even when everybody pays taxes, if the Federal Mexican government is paying for the transfers to a local region, from the perspective of the region receiving this transfer this is a windfall. Am I missing something you had in mind? This seems an interesting source of variation to look at, though. Maybe give it another pass and clarify.
 
 ---
