@@ -3,6 +3,103 @@
 
 ---
 
+## Idea 4
+
+In increasingly digitized economies, individuals differ not only in what prices they observe, but also in how they access and use money. This project asks whether people who rely primarily on digital payments form inflation expectations differently than those who transact mostly in cash. The central idea is that the payment method itself may shape exposure to price information, perceived liquidity constraints, or beliefs about monetary stability.
+
+I want to measure the elasticity of average regional inflation expectations to recent local inflation, as a function of the share of transactions in the region that are conducted digitally.  
+
+### Identification
+
+ExpInfl_rt = α_r + δ_t + β1 * π_local_rt + β2 * (π_local_rt × DigitalShare_r) + γ * Z_rt + ε_rt
+
+
+- **LHS variable**: `ExpInfl_rt` – Average inflation expectations in region *r* at time *t*  
+- **RHS variables**:  
+  - `π_local_rt` – Realized local inflation in region *r* at time *t* (e.g., trailing 3-month CPI)  
+  - `DigitalShare_r` – Share of transactions in region *r* that are digital (e.g., card, mobile, or online payments)  
+  - `π_local_rt × DigitalShare_r` – Interaction term identifying heterogeneity in responsiveness  
+  - `Z_rt` – Region-level controls (e.g., income, education, internet access, unemployment rate)  
+- Fixed effects:  
+  - `α_r`: Region fixed effects  
+  - `δ_t`: Time fixed effects
+ 
+
+  
+
+### Threats to Identification
+
+1. **DigitalShare_r may proxy for unobserved factors** like  urbanization  
+3. **Reverse causality**, if inflation shocks change payment behavior (e.g., shift to cash)
+
+I think the threats are important, and right now I cannot think about a good identification of how to deal with them. I initially thought about this idea, thinking about the recent Iberian Blackout as a Natural Experiment on Digital Payment Disruptions... But I think that affected so many things that I don't think it's the right variation to use.
+
+---
+
+
+## Idea 3 
+ 
+
+ I want to estimate the **elasticity of regional inflation expectations to recent local inflation**, as a function of **regional cultural characteristics** measured using survey data such as the World Values Survey.
+ 
+  Specifically, I focus on how regional differences in attitudes — such as trust in government — shape how strongly local inflation feeds into expectations.
+ 
+ 
+
+### Motivation
+
+To my knowledge, no paper talks about how regional cultural characteristics affect the responsiveness of **aggregate expectations** to local inflation.  
+
+### Regression Specification
+
+
+ExpInfl_rt =   δ_t + β1 * π_local_rt + β2 * (π_local_rt × CultureIndex_r) + γ * Z_rt + ε_rt
+
+
+- **LHS variable**: `ExpInfl_rt` – Average 12-month-ahead inflation expectations in region *r* at time *t*  
+- **RHS variables**:
+  - `π_local_rt` – Realized local inflation in region *r* at time *t* (e.g., trailing 3-month CPI)  
+  - `CultureIndex_r` – Time-invariant index of cultural attitudes in region *r* (e.g., average trust in government, thrift, belief in agency)  
+  - `Z_rt` – Regional controls (e.g.,  average income, internet access)  
+-  `δ_t`:  time fixed effects
+
+ 
+
+### Interpretation
+
+- `β1`: Baseline elasticity of regional expectations to inflation  
+- `β2`: Differential elasticity in regions with stronger or weaker cultural indicators (e.g., low trust, high fatalism)
+
+ 
+
+### Identifying Assumptions
+
+- `CultureIndex_r` is **pre-determined and time-invariant**, capturing long-run regional beliefs  
+- Local inflation shocks (`π_local_rt`) are exogenous to short-run belief formation, conditional on controls  
+- No omitted regional trends are correlated with both culture and inflation responsiveness
+
+ 
+### Threats to Identification
+
+1. **Cultural sorting** — regions with certain cultural profiles may induce migration, and I don't know how to deal with that
+2. **Measurement error** — cultural indices based on survey averages may be noisy, especially in small regions   
+ 
+### Actionable Tasks
+
+- Construct `π_local_rt`: Use regional CPI data   to compute recent inflation by region  
+- Construct `ExpInfl_rt`: Use consumer survey data with regional identifiers   to calculate average expected inflation  
+- Build `CultureIndex_r`: Aggregate regional cultural indicators using the World Values Survey or similar sources. Include:
+  - Trust in government  
+  - Belief in effort vs. luck  
+  - Importance of thrift  
+  - Political interest  
+  - Religiosity  
+- Merge into a panel dataset and estimate the regression above   
+ 
+ 
+
+---
+
 ## Idea 1
 
 ### Research Question  
