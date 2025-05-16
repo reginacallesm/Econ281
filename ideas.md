@@ -16,7 +16,7 @@ ExpInfl_rt = α_r + δ_t + β1 * π_local_rt + β2 * (π_local_rt × DigitalShar
 
 - **LHS variable**: `ExpInfl_rt` – Average inflation expectations in region *r* at time *t*  
 - **RHS variables**:  
-  - `π_local_rt` – Realized local inflation in region *r* at time *t* (e.g., trailing 3-month CPI)  
+  - `π_local_rt` – Realized local inflation in region *r* at time *t*   
   - `DigitalShare_r` – Share of transactions in region *r* that are digital (e.g., card, mobile, or online payments)  
   - `π_local_rt × DigitalShare_r` – Interaction term identifying heterogeneity in responsiveness  
   - `Z_rt` – Region-level controls (e.g., income, education, internet access, unemployment rate)  
