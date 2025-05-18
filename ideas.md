@@ -34,6 +34,11 @@ ExpInfl_rt = α_r + δ_t + β1 * π_local_rt + β2 * (π_local_rt × DigitalShar
 
 I think the threats are important, and right now I cannot think about a good identification of how to deal with them. I initially thought about this idea, thinking about the recent Iberian Blackout as a Natural Experiment on Digital Payment Disruptions... But I think that affected so many things that I don't think it's the right variation to use.
 
+
+### Juan's thoughts.
+
+Keep thinking about it. What data would you use? I agree that large shocks have the potential of having violations of exclusion restritions, but maybe you can start running reduce forms if you find an interesting setting.
+
 ---
 
 
@@ -96,7 +101,9 @@ ExpInfl_rt =   δ_t + β1 * π_local_rt + β2 * (π_local_rt × CultureIndex_r) 
   - Religiosity  
 - Merge into a panel dataset and estimate the regression above   
  
- 
+ ### Juan's thoughts.
+
+ Take a look at the work by Ulrike Malmendier, who instead of using differences across regions, uses differences across cohorts in their exposure to shocks during their lifetimes. Maybe you find interesting ideas there. With cross-country comparisons, the issue will always be that perhaps countries where citizens don't trust the government are also countries where monetary policy is conducted differently (and perhaps irresponsibly).
 
 ---
 
