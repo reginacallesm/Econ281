@@ -1,5 +1,58 @@
 # Econ 281: Research Ideas  
 **Regina Calles**
+---
+
+## Idea 6
+
+Workers and firms often invest in training, but returns to those investments depend on whether the market can recognize them. In many developing countries, a large share of skills comes from informal or uncertified training (unobservable quality, e.g., self-employed). If employers cannot verify the quality of that human capital, returns to investments in human capital could be suppressed.
+
+I want to measure the differential return to human capital investments, depending on how observable or verifiable the investment is to potential employers. In other words, I want to estimate the elasticity of wages or employment transition to skill acquisition, as a function of whether the investment is certified or uncertified.
+
+
+
+Data:
+
+Labor force surveys with modules on training or education investments: e.g., ENOE (Mexico)
+Identify training episodes and classify:
+
+-Formal/certified (degrees, recognized programs)
+
+-Informal/unobservable (on-the-job training, family business)
+
+-Track wage changes or employment upgrades after training. (This is panel data up to 5 quarters)
+
+Empirical Strategy:
+
+Use the rotating panel structure of the ENOE (or a similar labor force survey) to  identify individuals who report receiving training at some point during the panel window, and compare their wage evolution before and after the training.
+ 
+This design allows me to  exploit within-individual variation  and control for time-invariant individual traits through fixed effects.
+
+
+Then I could think about the macro implications:
+
+If labor markets discount unobservable skill, workers who improve their productivity informally may:
+
+-Remain stuck in low-return occupations
+
+-Fail to transition to higher-productivity sectors or firms
+
+---
+
+## Idea 5
+
+Possible extension of your paper: Asymmetric Information in Capital Markets and the Collateral Channel of Credit Access
+
+Bierdel et al. (2025) show that asymmetric information in capital markets, where sellers know more about the quality of assets than buyers, generates lower capital stock, a higher unemployment rate of capital, and a lower average quality of employed capital. 
+
+This idea explores another implication of asymmetric information: 
+
+If lenders also face this asymmetric information in capital markets, then capital used as collateral is undervalued, and credit supply becomes distorted. The core hypothesis is that capital is a less effective form of collateral when there is asymmetric information in capital markets.
+
+In other words, the object of interest would be the elasticity of credit access to firm capital stock, as a function of the degree of asymmetric information in  capital markets.
+
+Right now, I can only see this as a model because I don't know about this dataset type. But I wanted to share this with you in case you think it could be interesting!
+
+      
 
 ---
 
