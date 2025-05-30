@@ -41,7 +41,7 @@ By measuring the differential pass‑through of monetary shocks to loan rates an
 The problem where I'm stuck right now is that I don't know if the data to study this exists/ or if I could have access to it.
 I would need:
 *data for credit history (maybe I could have access through Banxico)
-*data on loan rates: there is a lot of data in the National Banking and Securities Commission of Mexico, for instance: Here I could see the weighted rate for state and institution. the https://app.powerbi.com/view?r=eyJrIjoiM2FiNThiNDUtMzI3Mi00NzNlLTliMWYtNjM1NjhlM2Q4YmJkIiwidCI6IjVlMmM0OTc3LTEwN2QtNDBhMy04YWY3LTcwMDc0ODFhNjBkNCIsImMiOjR9
+*data on loan rates: there is a lot of data in the National Banking and Securities Commission of Mexico, for instance: Here I could see the weighted rate for state and institution.  https://app.powerbi.com/view?r=eyJrIjoiM2FiNThiNDUtMzI3Mi00NzNlLTliMWYtNjM1NjhlM2Q4YmJkIiwidCI6IjVlMmM0OTc3LTEwN2QtNDBhMy04YWY3LTcwMDc0ODFhNjBkNCIsImMiOjR9
 
 
 
