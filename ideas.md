@@ -2,6 +2,52 @@
 **Regina Calles**
 ---
 
+## Idea 7
+
+Auclert, Rognlie & Straub (2020) demonstrate that in a HANK framework an interest‑rate cut boosts output mainly through investment, raising labor demand and nominal wages.  
+In a developing economy, these wage gains can raise the opportunity cost of schooling and increase upper‑secondary dropout.  
+My idea is to estimate the elasticity of upper secondary dropout with respect to a wage increase caused by an interest-rate cut. Treating this elasticity as a proxy for changes in human‑capital investment. The idea is that higher wages should raise the opportunity cost of schooling; the resulting change in dropout rates reveals how monetary policy can indirectly shape the economy’s future human‑capital stock.
+
+### Empirical specification
+
+Δ ln(DropoutShare₍ᵣₜ₎) = αᵣ + δₜ + β (MPShockₜ × IndustryShareᵣ) + X₍ᵣₜ₎ γ + ε₍ᵣₜ₎
+
+where
+ 
+* IndustryShareᵣ =  pre‑shock share of regional employment in youth‑intensive industries (e.g., construction, manufacturing, retail) in region r.
+* Region and year fixed effects αᵣ + δₜ
+
+The interaction term provides exogenous wage variation: regions with high employment shares experience larger wage responses to monetary surprises.  
+Identification assumes this interaction affects dropout only through wages; which I could test by looking at cohorts that's didn't have a monetary shock during upper secondary years.
+
+Next steps:
+
+1. Granular employment and school data I can get it from employment surveys that are standard in developing countries (their equivalent of CPS)
+2. Information about monetary shocks, I don't know, but I could investigate more about this.
+---
+## Idea 8
+
+In a developing‑country context, large segments of the population lack access to formal credit and therefore have no credit histories, leaving banks unable to assess their default risk. 
+
+To buffer this uncertainty, lenders set very high, risk‑padded interest rates for most applicants while reserving preferential terms for the minority with well‑documented repayment records. It is reasonable to expect that this small subset of borrowers is offered rates much more closely aligned with the central‑bank policy rate.
+
+I propose to study how an interest‑rate cut propagates in a setting of heterogeneous agents and lending rates heavily distorted by default risk uncertainty: cheaper central‑bank funding lowers borrowing costs almost exclusively for high‑income, well‑scored households, while lower‑income borrowers continue to face steep rates.
+
+
+In other words, I aim to estimate the differential elasticity of loan rates to a monetary policy shock for borrowers with different credit histories, comparing those with verifiable credit histories to those without.
+
+By measuring the differential pass‑through of monetary shocks to loan rates and consumption across income groups, the idea is to show how limited credit access can make expansionary monetary policy widen, rather than reduce, income inequality.
+
+The problem where I'm stuck right now is that I don't know if the data to study this exists/ or if I could have access to it.
+I would need:
+*data for credit history (maybe I could have access through Banxico)
+*data on loan rates: there is a lot of data in the National Banking and Securities Commission of Mexico, for instance: Here I could see the weighted rate for state and institution. the https://app.powerbi.com/view?r=eyJrIjoiM2FiNThiNDUtMzI3Mi00NzNlLTliMWYtNjM1NjhlM2Q4YmJkIiwidCI6IjVlMmM0OTc3LTEwN2QtNDBhMy04YWY3LTcwMDc0ODFhNjBkNCIsImMiOjR9
+
+
+
+
+---
+
 ## Idea 6
 
 Workers and firms often invest in training, but returns to those investments depend on whether the market can recognize them. In many developing countries, a large share of skills comes from informal or uncertified training (unobservable quality, e.g., self-employed). If employers cannot verify the quality of that human capital, returns to investments in human capital could be suppressed.
