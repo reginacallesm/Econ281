@@ -8,6 +8,8 @@ Auclert, Rognlie & Straub (2020) demonstrate that in a HANK framework an
 In a developing economy, these wage gains can raise the opportunity cost of schooling and increase upper‑secondary dropout.  
 My idea is to estimate the elasticity of upper secondary dropout with respect to a wage increase caused by an interest-rate cut. Treating this elasticity as a proxy for changes in human‑capital investment. The idea is that higher wages should raise the opportunity cost of schooling; the resulting change in dropout rates reveals how monetary policy can indirectly shape the economy’s future human‑capital stock.
 
+
+
 ### Empirical specification
 
 Δ ln(DropoutShare₍ᵣₜ₎) = αᵣ + δₜ + β (MPShockₜ × IndustryShareᵣ) + X₍ᵣₜ₎ γ + ε₍ᵣₜ₎
@@ -24,6 +26,11 @@ Next steps:
 
 1. Granular employment and school data I can get it from employment surveys that are standard in developing countries (their equivalent of CPS)
 2. Information about monetary shocks, I don't know, but I could investigate more about this.
+
+## Juan's thoughts.
+
+This does not super difficult to test. I would not constraint myself into thinking this happens due to the opportunity cost of schooling, but in general it would be great to document this if it happens. The only caveat is that the H0 is that it does not, so if you find null results, I don't think you can do much with it.
+
 ---
 ## Idea 8
 
@@ -43,7 +50,8 @@ I would need:
 *data for credit history (maybe I could have access through Banxico)
 *data on loan rates: there is a lot of data in the National Banking and Securities Commission of Mexico, for instance: Here I could see the weighted rate for state and institution.  https://app.powerbi.com/view?r=eyJrIjoiM2FiNThiNDUtMzI3Mi00NzNlLTliMWYtNjM1NjhlM2Q4YmJkIiwidCI6IjVlMmM0OTc3LTEwN2QtNDBhMy04YWY3LTcwMDc0ODFhNjBkNCIsImMiOjR9
 
-
+## Juan's thoughts
+Usually if you find a coauthor in the Central Bank you can have access to the credit registry. I know David Jaume has used this in the past.
 
 
 ---
@@ -82,7 +90,12 @@ If labor markets discount unobservable skill, workers who improve their producti
 
 -Fail to transition to higher-productivity sectors or firms
 
+## Juan's thoughts.
+
 ---
+
+I liked this. For you to think about. How to differentiate this particular challenge from other challenges by which formal/informal training differs?
+
 
 ## Idea 5
 
@@ -98,7 +111,10 @@ In other words, the object of interest would be the elasticity of credit access 
 
 Right now, I can only see this as a model because I don't know about this dataset type. But I wanted to share this with you in case you think it could be interesting!
 
-      
+
+## Juan's idea.
+
+This is good! Maybe yeah, try thinking about the model. Most credit models have ideas of moral hazard or signaling on the part of the entrepreneurs type, but not so much (that I've seen) as a function of unobservable capital quality. Seems interesting.
 
 ---
 
